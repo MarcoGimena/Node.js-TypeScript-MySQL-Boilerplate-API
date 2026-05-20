@@ -4,6 +4,8 @@ import { Sequelize } from 'sequelize';
 import accountModel from '../accounts/account-model';
 import refreshTokenModel from '../accounts/refresh-token.model';
 
+// OR if you use the older syntax: require('dotenv').config();
+
 const db: any = {};
 export default db;
 
